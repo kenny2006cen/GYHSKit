@@ -1,0 +1,6 @@
+framework module Pods_GYHSKit_Tests {
+  umbrella header "Pods-GYHSKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

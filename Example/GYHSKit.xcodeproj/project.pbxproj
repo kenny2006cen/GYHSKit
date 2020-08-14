@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		311135B4E9A0EFD66FB24F56 /* GYHSKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GYHSKit.podspec; path = ../GYHSKit.podspec; sourceTree = "<group>"; };
+		311135B4E9A0EFD66FB24F56 /* GYHSKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GYHSKit.podspec; path = ../GYHSKit.podspec; sourceTree = "<group>"; };
 		4F3AD41B61FF531A51B02E2F /* Pods-GYHSKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GYHSKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-GYHSKit_Example/Pods-GYHSKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GYHSKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GYHSKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,14 +59,14 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6435C7B40AF1A2AF040CAE6B /* Pods-GYHSKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GYHSKit_Example.release.xcconfig"; path = "Target Support Files/Pods-GYHSKit_Example/Pods-GYHSKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6D822B458C69F4FDCD8C1AA8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6D822B458C69F4FDCD8C1AA8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C07A75697640F6C651C00D76 /* Pods_GYHSKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GYHSKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C60D7C10E709FE990A3D3F0D /* Pods_GYHSKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GYHSKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FEEB935318B94FF562023C /* Pods-GYHSKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GYHSKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GYHSKit_Tests/Pods-GYHSKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D4EAD06F76CD1DD4F0D64E12 /* Pods-GYHSKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GYHSKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-GYHSKit_Tests/Pods-GYHSKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E776C59ABA68EABD342D46D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E776C59ABA68EABD342D46D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				D0FEEB935318B94FF562023C /* Pods-GYHSKit_Tests.debug.xcconfig */,
 				D4EAD06F76CD1DD4F0D64E12 /* Pods-GYHSKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
