@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'GYHSKit_Example' do
+  pod 'GYHSKit', :path => '../'
+
+  target 'GYHSKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
